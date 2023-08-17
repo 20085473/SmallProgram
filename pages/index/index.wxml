@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <text>{{a}}</text>
+  <l-icon name="cart" size="120"/>
+  <view bind:tap="ontap">
+    <text>点击</text>
+  </view>
+</view>
