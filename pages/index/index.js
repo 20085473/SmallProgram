@@ -11,7 +11,6 @@ Page(
     },
 
     ontap:function(){
-      console.log("123")
       wx.navigateTo({
         url: '/pages/post/post',
       })

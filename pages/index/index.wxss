@@ -3,3 +3,18 @@
   display: flex;
   flex-direction: column;
 }
+
+.name{
+  margin-top: 100rpx;
+}
+
+.foot-container{
+  margin-top: 200rpx;
+  border:1px solid blue;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+.foot-text{
+  color:#888888
+}

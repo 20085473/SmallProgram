@@ -1,2 +1,12 @@
 <!--pages/post/post.wxml-->
-<text>pages/post/post.wxml</text>
+<swiper>
+  <swiper-item>
+    123
+  </swiper-item>
+  <swiper-item>
+    456
+  </swiper-item>
+  <swiper-item>
+    789
+  </swiper-item>
+</swiper>

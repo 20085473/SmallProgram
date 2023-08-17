@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <text>{{a}}</text>
-  <l-icon name="cart" size="120"/>
-  <view bind:tap="ontap">
-    <text>点击</text>
+  <l-avatar src="http://img3.a0bi.com/upload/ttq/20161015/1476518118768.png"/>
+  <text class="name">hello,Michael</text>
+  <view class="foot-container" bind:tap="ontap">
+    <text class="foot-text">开启小程序之旅</text>
   </view>
 </view>
