@@ -1,12 +1,33 @@
 <!--pages/post/post.wxml-->
-<swiper>
-  <swiper-item>
-    123
-  </swiper-item>
-  <swiper-item>
-    456
-  </swiper-item>
-  <swiper-item>
-    789
-  </swiper-item>
-</swiper>
+<view class="root-container">
+  <swiper indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image src="/image/1.jpg" class="swiper-image-style" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/2.jpg" class="swiper-image-style" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/3.jpg" class="swiper-image-style" />
+    </swiper-item>
+  </swiper>
+
+  <block wx:for="{{post}}">
+    <view bind:tap="goToPostDetail">
+      <view class="post-author-date">
+        <l-avatar wx:if="{{flag}}" icon="user" size="60" />
+        <text>{{item.date}}</text>
+      </view>
+      <text>{{item.title}}</text>
+      <image src="{{item.image}}" />
+      <text>{{item.desc}}</text>
+      <view class="post-foot">
+        <l-icon name="favor" />
+        <text>{{item.collection}}</text>
+        <l-icon name="eye"></l-icon>
+        <text>{{item.reading}}</text>
+      </view>
+    </view>
+  </block>
+
+</view>

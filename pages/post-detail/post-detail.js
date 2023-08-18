@@ -1,25 +1,19 @@
-// pages/post/post.js
+// pages/psot-detail/post-detail.js
 
-const { postList } = require("../../data/data.js")
-var postdata=require("../../data/data.js")
-console.log(postdata)
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    a:"这是文章标题",
-    "flag":true
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    this.setData({
-      "post":postList
-    })
+
   },
 
   /**
@@ -69,10 +63,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  goToPostDetail(){
-    wx.redirectTo({
-      url: '/pages/post-detail/post-detail'
-    })
   }
 })

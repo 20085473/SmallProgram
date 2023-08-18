@@ -1,0 +1,4 @@
+/* pages/psot-detail/post-detail.wxss */
+.root-container{
+  margin-top: 120rpx;
+}

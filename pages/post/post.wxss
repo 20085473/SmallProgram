@@ -1,1 +1,26 @@
 /* pages/post/post.wxss */
+.root-container{
+  margin-top: 120rpx;
+  border-bottom: 1px solid black;
+}
+
+.swiper-image-style{
+  width: 100%;
+  height: 500rpx;
+}
+
+.post-author-date{
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+}
+
+image{
+  width: 100%;
+  height: 400rpx;
+}
+
+.post-foot{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx;
+}

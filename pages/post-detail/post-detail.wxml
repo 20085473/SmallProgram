@@ -1,0 +1,5 @@
+<!--pages/psot-detail/post-detail.wxml-->
+<view class="root-container">
+  <text>pages/post-detail/post-detail.wxml</text>
+</view>
+
